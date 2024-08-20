@@ -1,3 +1,4 @@
+import 'package:Thirty_Widgets/widgets/ListGrid.dart';
 import 'package:Thirty_Widgets/widgets/button.dart';
 import 'package:Thirty_Widgets/widgets/container_sized.dart';
 import 'package:Thirty_Widgets/widgets/rowsandcols.dart';
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         primaryColor: Colors.purpleAccent,
       ),
-      home: const ButtonWidget(),
+      home: const ListGrid(),
     );
   }
 }
