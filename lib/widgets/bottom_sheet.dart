@@ -9,7 +9,7 @@ class BottomSheetWidget extends StatelessWidget {
       backgroundColor: Colors.white24,
       appBar: AppBar(
         backgroundColor: Colors.blueGrey,
-        title: Text('Bottom Sheet Widget'),
+        title: const Text('Bottom Sheet Widget'),
       ),
       body: Center(
         child: ElevatedButton(onPressed: (){
@@ -18,7 +18,7 @@ class BottomSheetWidget extends StatelessWidget {
               enableDrag: false,
               backgroundColor: Theme.of(context).primaryColor,
               context: (context), builder: (context){
-            return Column(
+            return const Column(
               mainAxisSize: MainAxisSize.min,
               children: [
                 ListTile(
@@ -49,7 +49,7 @@ class BottomSheetWidget extends StatelessWidget {
             );
           });
         }, child:
-        Text('Show Bottom Sheet')),
+        const Text('Show Bottom Sheet')),
       ),
     );
   }
