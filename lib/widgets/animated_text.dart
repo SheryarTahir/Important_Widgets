@@ -10,7 +10,7 @@ class AnimatedTextWidget extends StatelessWidget {
       backgroundColor: Colors.deepPurple.shade50,
       appBar: AppBar(
         backgroundColor: Colors.blueGrey,
-        title: Text('Animated Text Widget'),
+        title: const Text('Animated Text Widget'),
       ),
       body: Center(
         child: Column(
@@ -18,31 +18,31 @@ class AnimatedTextWidget extends StatelessWidget {
           children: [
             AnimatedTextKit(
               animatedTexts: [
-              TypewriterAnimatedText('Sheryar Tahir', textStyle: TextStyle(
+              TypewriterAnimatedText('Sheryar Tahir', textStyle: const TextStyle(
                 fontSize: 30,
                 fontWeight: FontWeight.bold
               ),
-                speed: Duration(milliseconds: 100),
+                speed: const Duration(milliseconds: 100),
               ),
             ],
               totalRepeatCount: 4,
-              pause: Duration(milliseconds: 200),
+              pause: const Duration(milliseconds: 200),
               displayFullTextOnTap: true,
               stopPauseOnTap: true,
             ),
             AnimatedTextKit(
               animatedTexts: [
-                RotateAnimatedText('HELLO', textStyle: TextStyle(
+                RotateAnimatedText('HELLO', textStyle: const TextStyle(
                     fontSize: 30,
                     fontWeight: FontWeight.w600, color: Colors.red
                 ),
                 ),
-                RotateAnimatedText('HANDSOME', textStyle: TextStyle(
+                RotateAnimatedText('HANDSOME', textStyle: const TextStyle(
                     fontSize: 30,
                     fontWeight: FontWeight.w600, color: Colors.red
                 ),
                 ),
-                RotateAnimatedText('Sheryar Tahir', textStyle: TextStyle(
+                RotateAnimatedText('Sheryar Tahir', textStyle: const TextStyle(
                     fontSize: 30,
                     fontWeight: FontWeight.bold
                 ),
@@ -54,11 +54,11 @@ class AnimatedTextWidget extends StatelessWidget {
               // stopPauseOnTap: true,
             ),
             AnimatedTextKit(animatedTexts: [
-              WavyAnimatedText('HELLO WORLD!', textStyle: TextStyle(
+              WavyAnimatedText('HELLO WORLD!', textStyle: const TextStyle(
                   fontSize: 30,
                   fontWeight: FontWeight.bold
               ),),
-            WavyAnimatedText('HELLO WORLD!', textStyle: TextStyle(
+            WavyAnimatedText('HELLO WORLD!', textStyle: const TextStyle(
                 fontSize: 30,
                 fontWeight: FontWeight.bold
             ),),
