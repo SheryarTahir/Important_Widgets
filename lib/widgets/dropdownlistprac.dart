@@ -16,13 +16,13 @@ class _DropdownlistpracState extends State<Dropdownlistprac> {
       backgroundColor: Colors.deepPurple.shade100,
       appBar: AppBar(
         backgroundColor: Colors.deepPurple.shade200,
-        title: Text('Drop Down List'),
+        title: const Text('Drop Down List'),
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Container(
-            margin: EdgeInsets.all(10),
+            margin: const EdgeInsets.all(10),
             height: 70,
             width: MediaQuery.of(context).size.width,
             decoration: BoxDecoration(
