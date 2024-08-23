@@ -8,6 +8,7 @@ import 'package:Thirty_Widgets/widgets/container_sized.dart';
 import 'package:Thirty_Widgets/widgets/dismissible.dart';
 import 'package:Thirty_Widgets/widgets/drawer.dart';
 import 'package:Thirty_Widgets/widgets/dropdown_list.dart';
+import 'package:Thirty_Widgets/widgets/dropdownlistprac.dart';
 import 'package:Thirty_Widgets/widgets/image.dart';
 import 'package:Thirty_Widgets/widgets/rowsandcols.dart';
 import 'package:Thirty_Widgets/widgets/snackbar.dart';
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.light,
         primaryColor: Colors.deepPurple.shade50,
       ),
-      home: const DropdownList(),
+      home: const Dropdownlistprac(),
     );
   }
 }

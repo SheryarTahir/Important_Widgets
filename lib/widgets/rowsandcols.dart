@@ -10,7 +10,7 @@ class RowsCols extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.deepPurple,
-        title: Text('Rows and Columns'),
+        title: const Text('Rows and Columns'),
       ),
       body: Container(
         height: h,
