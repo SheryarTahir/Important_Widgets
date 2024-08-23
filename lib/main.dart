@@ -1,6 +1,7 @@
 import 'package:Thirty_Widgets/widgets/ListGrid.dart';
 import 'package:Thirty_Widgets/widgets/alertdialog.dart';
 import 'package:Thirty_Widgets/widgets/animated_text.dart';
+import 'package:Thirty_Widgets/widgets/bottom_nav_bar.dart';
 import 'package:Thirty_Widgets/widgets/bottom_navigation_bar.dart';
 import 'package:Thirty_Widgets/widgets/bottom_sheet.dart';
 import 'package:Thirty_Widgets/widgets/button.dart';
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.light,
         primaryColor: Colors.deepPurple.shade50,
       ),
-      home: const Dropdownlistprac(),
+      home: const BottomNavBarPrac(),
     );
   }
 }
