@@ -1,3 +1,7 @@
+import 'package:Thirty_Widgets/pages/home.dart';
+import 'package:Thirty_Widgets/pages/like.dart';
+import 'package:Thirty_Widgets/pages/search.dart';
+import 'package:Thirty_Widgets/pages/setting.dart';
 import 'package:Thirty_Widgets/widgets/ListGrid.dart';
 import 'package:Thirty_Widgets/widgets/alertdialog.dart';
 import 'package:Thirty_Widgets/widgets/animated_text.dart';
@@ -11,6 +15,7 @@ import 'package:Thirty_Widgets/widgets/drawer.dart';
 import 'package:Thirty_Widgets/widgets/dropdown_list.dart';
 import 'package:Thirty_Widgets/widgets/dropdownlistprac.dart';
 import 'package:Thirty_Widgets/widgets/image.dart';
+import 'package:Thirty_Widgets/widgets/modern_nav_bar.dart';
 import 'package:Thirty_Widgets/widgets/rowsandcols.dart';
 import 'package:Thirty_Widgets/widgets/snackbar.dart';
 import 'package:flutter/material.dart';
@@ -28,7 +33,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.light,
         primaryColor: Colors.deepPurple.shade50,
       ),
-      home: const BottomNavBarPrac(),
+      home: const ModernNavBar(),
     );
   }
 }
