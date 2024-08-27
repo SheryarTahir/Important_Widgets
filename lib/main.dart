@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.light,
         primaryColor: Colors.deepPurple.shade50,
       ),
-      home: const FormsWidget(),
+      home: FormWidget(),
     );
   }
 }
