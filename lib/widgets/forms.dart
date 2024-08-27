@@ -21,27 +21,29 @@ class _FormsWidgetState extends State<FormsWidget> {
         backgroundColor: Colors.deepPurple.shade200,
         title: const Text('Forms'),
       ),
-      body: Form(
-        key: _formKey,
-        child: Column(
-          children: [
-            TextFormField(
-              decoration: const InputDecoration(
-                hintText: 'Enter First Name',
+      body: Container(
+        child: Form(
+          key: _formKey,
+          child: Column(
+            children: [
+              TextFormField(
+                decoration: const InputDecoration(
+                  hintText: 'Enter First Name',
+                ),
+                key: const ValueKey('firstname'),
+                validator: (value) {
+                  if (value.toString().isEmpty) {
+                    return 'First Name Should Not Be Empty';
+                  } else {
+                    return null;
+                  }
+                },
+                onSaved: (value) {
+                  firstaname = value.toString();
+                },
               ),
-              key: const ValueKey('firstname'),
-              validator: (value) {
-                if (value.toString().isEmpty) {
-                  return 'First Name Should Not Be Empty';
-                } else {
-                  return null;
-                }
-              },
-              onSaved: (value) {
-                firstaname = value.toString();
-              },
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );
