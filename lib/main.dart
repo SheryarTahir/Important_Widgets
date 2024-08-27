@@ -14,6 +14,7 @@ import 'package:Thirty_Widgets/widgets/dismissible.dart';
 import 'package:Thirty_Widgets/widgets/drawer.dart';
 import 'package:Thirty_Widgets/widgets/dropdown_list.dart';
 import 'package:Thirty_Widgets/widgets/dropdownlistprac.dart';
+import 'package:Thirty_Widgets/widgets/form_widget.dart';
 import 'package:Thirty_Widgets/widgets/forms.dart';
 import 'package:Thirty_Widgets/widgets/image.dart';
 import 'package:Thirty_Widgets/widgets/modern_nav_bar.dart';
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.light,
         primaryColor: Colors.deepPurple.shade50,
       ),
-      home: FormWidget(),
+      home: const Forms1Widget(),
     );
   }
 }
