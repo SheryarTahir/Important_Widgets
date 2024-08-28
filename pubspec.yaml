@@ -33,6 +33,7 @@ dependencies:
   cached_network_image: ^3.4.1
   animated_text_kit: ^4.2.2
   google_nav_bar: ^5.0.6
+  google_fonts: ^6.2.1
 
 
   # The following adds the Cupertino Icons font to your application.

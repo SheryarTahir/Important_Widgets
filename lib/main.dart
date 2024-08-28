@@ -2,6 +2,7 @@ import 'package:Thirty_Widgets/pages/home.dart';
 import 'package:Thirty_Widgets/pages/like.dart';
 import 'package:Thirty_Widgets/pages/search.dart';
 import 'package:Thirty_Widgets/pages/setting.dart';
+import 'package:Thirty_Widgets/utils/colors.dart';
 import 'package:Thirty_Widgets/widgets/ListGrid.dart';
 import 'package:Thirty_Widgets/widgets/alertdialog.dart';
 import 'package:Thirty_Widgets/widgets/animated_text.dart';
@@ -21,6 +22,7 @@ import 'package:Thirty_Widgets/widgets/modern_nav_bar.dart';
 import 'package:Thirty_Widgets/widgets/rowsandcols.dart';
 import 'package:Thirty_Widgets/widgets/snackbar.dart';
 import 'package:Thirty_Widgets/widgets/stack.dart';
+import 'package:Thirty_Widgets/visa_pages/visa_card.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
@@ -34,9 +36,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         brightness: Brightness.light,
-        primaryColor: Colors.deepPurple.shade50,
+        primaryColor: AppColors.bgColor,
       ),
-      home: const StackWidget(),
+      home: const VisaCard(),
     );
   }
 }
