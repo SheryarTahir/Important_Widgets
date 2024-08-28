@@ -2,6 +2,7 @@ import 'package:Thirty_Widgets/pages/home.dart';
 import 'package:Thirty_Widgets/pages/like.dart';
 import 'package:Thirty_Widgets/pages/search.dart';
 import 'package:Thirty_Widgets/pages/setting.dart';
+import 'package:Thirty_Widgets/practice_visa_card/pages/homePage.dart';
 import 'package:Thirty_Widgets/utils/colors.dart';
 import 'package:Thirty_Widgets/widgets/ListGrid.dart';
 import 'package:Thirty_Widgets/widgets/alertdialog.dart';
@@ -38,7 +39,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.light,
         primaryColor: AppColors.bgColor,
       ),
-      home: const VisaCard(),
+      home: const Homepage1(),
     );
   }
 }
