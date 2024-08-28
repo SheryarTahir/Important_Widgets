@@ -24,6 +24,7 @@ import 'package:Thirty_Widgets/widgets/rowsandcols.dart';
 import 'package:Thirty_Widgets/widgets/snackbar.dart';
 import 'package:Thirty_Widgets/widgets/stack.dart';
 import 'package:Thirty_Widgets/visa_pages/visa_card.dart';
+import 'package:Thirty_Widgets/widgets/tabBar.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
@@ -39,7 +40,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.light,
         primaryColor: AppColors.bgColor,
       ),
-      home: const Homepage1(),
+      home: const TabBarWidget(),
     );
   }
 }
