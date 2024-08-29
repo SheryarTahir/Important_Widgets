@@ -11,8 +11,8 @@ class TabBarWidget extends StatelessWidget {
         child: Scaffold(
           appBar: AppBar(
             backgroundColor: Colors.green.shade600,
-            title: Text('WhatsApp'),
-            bottom: TabBar(tabs: [
+            title: const Text('WhatsApp'),
+            bottom: const TabBar(tabs: [
               Tab(
                 icon: Icon(Icons.camera_enhance_sharp),
               ),
@@ -28,14 +28,14 @@ class TabBarWidget extends StatelessWidget {
             ]),
           ),
           body: TabBarView(children: [
-            Container(child: Center(child: Text('CAMERA', style: TextStyle(fontSize: 30),)),),
-            Container(child: Center(child: Text('CHATS', style: TextStyle(fontSize: 30),)),),
-            Container(child: Center(child: Text('STATUS', style: TextStyle(fontSize: 30),)),),
-            Container(child: Center(child: Text('CALLS', style: TextStyle(fontSize: 30),)),),
+            const Center(child: Text('CAMERA', style: TextStyle(fontSize: 30),)),
+            const Center(child: Text('CHATS', style: TextStyle(fontSize: 30),)),
+            const Center(child: Text('STATUS', style: TextStyle(fontSize: 30),)),
+            const Center(child: Text('CALLS', style: TextStyle(fontSize: 30),)),
           ]),
           floatingActionButton: FloatingActionButton(
               backgroundColor: Colors.green.shade400,
-              child: Icon(Icons.add, color: Colors.white,),
+              child: const Icon(Icons.add, color: Colors.white,),
               onPressed: (){}),
         ));
   }
